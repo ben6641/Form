@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    background: black;
+    width: 40%;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    margin-top: 5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 2em;
+}
+
+input, select {
+    margin-top: 2em;
+    border-style: hidden;
+    border-bottom: 1px solid silver;
+    width: 90%;
+    background: black;
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: .4em;
+}
+input:focus {
+    outline: none;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 2em;
+    background: green;
+    border-radius: 30px;
+    font-size: 1.15rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    padding: .1em 1.2em;
+    border-style: none;
+    margin-bottom: .5em;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text {
+    color: green;
+}
